@@ -21,3 +21,7 @@ Repo to hold GCP terraform learning
 15. RUN `terraform plan -var-file=variables.tfvars`
 16. RUN `terraform apply -var-file=variables.tfvars`
 
+
+### Details on submodules
+1. [Service account creation readme](service_account_creation/README.md)
+1. [Workspace creation readme](workspace_creation/README.md)
