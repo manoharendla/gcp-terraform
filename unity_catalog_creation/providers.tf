@@ -4,18 +4,14 @@ provider "google" {
 }
 
 provider "databricks" {
-  host = var.databricks_workspace_url
+  alias                  = "accounts"
+  host                   = "https://accounts.gcp.databricks.com"
+  google_service_account = var.google_service_account_email
+  account_id = "b64034d7-8e08-4472-a2e9-60f126a55bfc"
 }
 
 provider "databricks" {
-  alias      = "accounts"
-  host       = "https://accounts.gcp.databricks.com"
-  account_id = var.databricks_account_id
+  alias                  = "workspace"
+  host                   = var.databricks_workspace_url
+  google_service_account = var.google_service_account_email
 }
-
-
-# provider "databricks" {
-#   alias                  = "accounts"
-#   host                   = "https://accounts.gcp.databricks.com"
-#   google_service_account = var.google_service_account_email
-# }

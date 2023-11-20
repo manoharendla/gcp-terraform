@@ -2,7 +2,8 @@ resource "databricks_mws_workspaces" "this" {
   provider       = databricks.accounts
   account_id     = var.databricks_account_id
   workspace_name = var.databricks_workspace_name
-  location       = data.google_client_config.current.region
+  #location       = data.google_client_config.current.region
+  location = var.google_region
 
   cloud_resource_container {
     gcp {

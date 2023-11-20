@@ -1,7 +1,7 @@
 variable "google_region" {
   description = "Name of the google region"
   type        = string
-  default     = "europe-west2"
+  default     = "us-east1"
 }
 
 variable "google_project_id" {

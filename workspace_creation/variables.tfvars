@@ -1,5 +1,5 @@
-google_service_account_email = "manotfsa2@databricks-automation.iam.gserviceaccount.com"
+google_service_account_email = "manotfmsa2@databricks-automation.iam.gserviceaccount.com"
 google_project_id            = "databricks-automation"
-google_region                = "europe-west2"
+google_region                = "us-east2"
 databricks_account_id        = "b64034d7-8e08-4472-a2e9-60f126a55bfc"
-databricks_workspace_name    = "mano-tf-workspace"
+databricks_workspace_name    = "mano-tf-workspace-2"
