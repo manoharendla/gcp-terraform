@@ -2,7 +2,7 @@
 Repo to hold Terraform code for databricks on GCP. 
 
 ## Purpose
-The purpose of the script is to automate the process of service account creation, workspace creation, unity catalog creation and creation of sample databases in workspaces.
+The purpose of this solution is to automate the process of service account creation, workspace creation, unity catalog creation and creation of sample databases in workspaces.
 
 ## How to setup you local workstation for GCP Terraform:
 
