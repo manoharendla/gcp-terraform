@@ -20,8 +20,13 @@ Repo to hold GCP terraform learning
 14. RUN `terraform init`
 15. RUN `terraform plan -var-file=variables.tfvars`
 16. RUN `terraform apply -var-file=variables.tfvars`
+17. cd unity_catalog_creation
+18. RUN `terraform init`
+19. RUN `terraform plan -var-file=variables.tfvars`
+20. RUN `terraform apply -var-file=variables.tfvars`
 
 
 ### Details on submodules
 1. [Service account creation readme](service_account_creation/README.md)
-1. [Workspace creation readme](workspace_creation/README.md)
+2. [Workspace creation readme](workspace_creation/README.md)
+3. [Unity catalog creation readme](unity_catalog_creation/README.md)
